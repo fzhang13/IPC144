@@ -1,0 +1,42 @@
+//name: Xin Song(Felix)Zhang
+//email: xszhang3@myseneca.ca
+//student number: 111976171
+
+#include <stdio.h>
+
+int main(){
+    int coin, owe;
+    double amount, GST;
+
+    printf("Please enter the amount to be paid: $");
+    scanf("%lf", &amount);
+
+    GST = amount * .13 + .005;
+    amount = GST + amount;
+
+    printf("GST: 1.13\n");
+    printf("Balance owing: $%1.2lf\n", amount);
+
+    owe = amount * 100;
+    owe = owe % 100;
+    coin = (int)(amount);
+    printf("Loonies required: %d, balance owing $%1.2lf\n", coin, (double)owe/100);
+
+    coin = owe / 25;
+    owe = owe % 25;
+    printf("Quarters required: %d, balance owing $%1.2lf\n", coin,(double)owe/100);
+
+    coin = owe / 10;
+    owe = owe % 10;
+    printf("Dimes required: %d, balance owing $%1.2lf\n", coin,(double)owe/100);
+
+    coin = owe / 5;
+    owe = owe % 5;
+    printf("Nickels required: %d, balance owing $%1.2lf\n", coin,(double)owe/100);
+
+    coin = owe / 1;
+    owe = owe % 1;
+    printf("Pennies required: %d, balance owing $%1.2lf\n", coin,(double)owe/100);
+
+    return 0;
+}

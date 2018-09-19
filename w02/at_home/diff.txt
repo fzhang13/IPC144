@@ -1,0 +1,10 @@
+
+In line number 4 of your output:
+The output should be:
+GST: 1.13
+But your output is: 
+GST:1.13
+    ^
+----|
+Professor's character ASCII code: hex(20), dec(32)
+un-matched character ASCII code: hex(31), dec(49)

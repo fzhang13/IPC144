@@ -1,0 +1,5 @@
+1. By creating another struct called Contact, we are able to collect all the data of the other struct such as Name, Address and Numbers and organize them under one. This will allow us to recall the struct later on and point specifically to a data inside that struct.
+
+2. The most difficult part of this lab is keeping track of the variables of different structs and assigning them to the right category. Another issue that made this Milestone difficult is the same as Milestone 2, a few scanf function requires special conversion specifiers (such as postal code requires "%[^\n]")for it to properly pick up the value.
+
+3. Milestone 4 took less time to complete than Milestone 2.I completed in roughly 20 mins. As most of the data are broken up into different functions(getName, getAddress and getNumbers).It is easy to break up the code for Milestone 2 and put them into relevant functions. (e.g. Name entries into getName function. Address entry into getAddress function. Number entries into getNumbers function). As a bonus we can also use another function to combine all these functions inside another function. (getContact function).   

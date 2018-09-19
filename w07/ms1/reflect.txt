@@ -1,0 +1,4 @@
+1.A more efficient way for users to add data to the required field is to remove the prompt command for asking if user has optional informations to enter such as middleIntials, apartmentNumber and phoneNumbers. If the user does not have those informations, it would just passby that entry and leave it as blank. 
+
+2. The Reason why a C string is required to store up to 25 characters must be capable of storing 26 character is that it needs the extra element to store the null terminating character ('\0').
+

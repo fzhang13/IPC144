@@ -1,0 +1,10 @@
+
+In line number 5 of your output:
+The output should be:
+Quarters required: 2, balance owing $0.18
+But your output is: 
+Quarters required: 2, balance owinng $0.18
+                                  ^
+----------------------------------|
+Professor's character ASCII code: hex(67), dec(103)
+un-matched character ASCII code: hex(6e), dec(110)

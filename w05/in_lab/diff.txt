@@ -1,0 +1,10 @@
+
+In line number 14 of your output:
+The output should be:
+Enter Employee Age: 34
+But your output is: 
+Enter Employee Age: 35
+                     ^
+---------------------|
+Professor's character ASCII code: hex(34), dec(52)
+un-matched character ASCII code: hex(35), dec(53)

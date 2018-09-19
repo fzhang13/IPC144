@@ -1,0 +1,1 @@
+Through this Workshop, I have learned to use the simple C command of printf("  "); function. Which is use to display the characters that I want to display on the command promt. This also needs to be supplemented by defining the standard input/output library which is defined by #include <stdio.h> at the start.

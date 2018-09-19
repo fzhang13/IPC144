@@ -1,0 +1,3 @@
+1. The advantages of using an array of structs versus parallel arrays when dealing with related data is that in a struct, we can store different information under one index. For example in this workshop, we stored all relevant data of one employee under one array and assigned different structs variables to them(ex, id, age, salary), making it easier to recall later on. Whereas in a parallel array, we have to recall on different variables and index to get the same data.
+
+2. When we declare the structure in the header file, we delcared  our structs globally available. This means we can access the declared structs later on in another program/code.

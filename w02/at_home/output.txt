@@ -1,0 +1,14 @@
+Script started on Thu 01 Feb 2018 03:32:08 PM EST
+xszhang3@matrix:~/IPC144/w02/at_home> ws
+Please enter the amount to be paid: $8.68
+GST: 1.13
+Balance owing: $9.81
+Loonies required: 9, balance owing $0.81
+Quarters required: 3, balance owing $0.06
+Dimes required: 0, balance owing $0.06
+Nickels required: 1, balance owing $0.01
+Pennies required: 1, balance owing $0.00
+xszhang3@matrix:~/IPC144/w02/at_home> exit
+exit
+
+Script done on Thu 01 Feb 2018 03:32:14 PM EST

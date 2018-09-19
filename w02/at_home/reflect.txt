@@ -1,0 +1,7 @@
+1.The most important thing I learned this workshop is the the proper usage of casting and modulus(%) operations.
+
+2.The value .005 must be added to the GST calculation because if it's not added, the final amount will be 1.1284, and if we were to display to 2 decimal places (%.2lf), it would be represented as 1.12 instead of 1.13. adding .005 will allow the amount to be 1.1334.
+
+3.The casting operations allows us to convert one arthemtic type to other arithemtic types (ex. int, float, double, char). We need to do this to allow us to show the value in its correct types (i.e. Amount Owing in double, types of Coins as int). In our case, we are converting the int type remainder from modulus to a double type because we want to display the result as a floating decimal point value.
+
+4. modulus operator is used in this workshop to easily calculate the remainder of the change in one step, then we can casted as a double type value and display it as a floating point decimal value. 

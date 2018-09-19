@@ -1,0 +1,10 @@
+1. The 3 iteration constructs are, (for) loop, (do while) loop and (while) loop.
+In this workshop, I used for loop to construct a temperature recorder and while loop to analyze and validate the temperature
+
+2. In a do while loop, the condition is evaluated first.
+However in a do while loop, the condition is not evaluated until the end of the loop.
+A do while loop will also always run at least once.
+
+
+3. Conditional expression evaluates the conditions given.
+If true, it will chose the first option. If false, it will chose other option.

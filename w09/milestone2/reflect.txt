@@ -1,0 +1,8 @@
+1) Functions in C is are groups of statements when put together, can perform a task and then return control to the caller.
+Functions are needed because it supports modular design and cohesion which helps us reduce bugs. Functions also allows us to call 
+on them when we needed to avoid repeated code writing and to improve our efficiency.
+
+2) The "helper" functions is not included in the "contacts" module because its objective is inherently different from the contacts module.
+It serves as condition check for the program, where as "contacts" module serves as an input program. if the two were to be together. The code would
+be really long and confusing, which allows for errors to occur. By seperating them we are able to efficiently call on them when we need a conditions to be checked.
+
